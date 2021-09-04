@@ -9,7 +9,7 @@ header {
 
 body {
     padding-top: 3%;
-    background-image: url("thinkfulFinal/images/citybackground.jpeg");
+    background-image: url("/thinkfulFinal/images/citybackground.jpeg");
     background-repeat:round;
 }
 
