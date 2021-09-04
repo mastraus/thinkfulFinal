@@ -1,3 +1,4 @@
+/* Allows header to be placed just below the top of the page */
 header {
     background-color: whitesmoke;
     text-align: center;
@@ -7,9 +8,10 @@ header {
     border-top-style: ridge;
 }
 
+/* Background image covers the entire web page (replaces a background color option. */
 body {
     padding-top: 3%;
-    background-image: url("mastraus/thinkfulFinal/citybackground.jpeg");
+    background-image: url("/thinkfulFinal/citybackground.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -27,6 +29,7 @@ h2 {
     margin-top: -1em;
 }
 
+/* Edits will only apply to the navbar class, in which there are only one in this HTML. */
 .navbar {
     font-size: 1em;
     word-spacing: 50px;
@@ -35,6 +38,7 @@ h2 {
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+/* All elements within this class (which is the "meat" of the webpage) have these criteria applied. */
 .thebody {
     padding-top: 3%;
     margin-top: 5%;
@@ -49,6 +53,7 @@ h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
+/* This markup and :hover below it applies to links on page. */
 a {
     color: rgb(68, 70, 71);
     text-decoration: none;
@@ -76,6 +81,7 @@ h4 {
     font-size: 18px;
 }
 
+/* Adjusts bottom of page where contact information is found. Creates a border and sets it correctly under the body section. */
 footer {
     border-style: ridge;
     border-width: 1px;
@@ -85,6 +91,7 @@ footer {
     height: 50%;
 }
 
+/* Links for contact */
 .pcontact {
     text-align: center;
     font-size: 16px;
